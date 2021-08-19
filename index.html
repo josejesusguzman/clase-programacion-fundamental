@@ -9,7 +9,7 @@
                 <img src="iconos/home.png" class="imagen_casa">
             </a>
             <center>
-                <img src="imagenes/logo_barca.jpg" class="imagen_barca">
+                <img id="logo_barca" src="imagenes/logo_barca.jpg" class="imagen_barca">
                 <h2>FÚTBOL CLUB BARCELONA HISTORIA</h2>
                 <hr>
             </center>
@@ -17,12 +17,14 @@
                 El Fútbol Club Barcelona, conocido popularmente como Barça, es una entidad polideportiva con sede en Barcelona, España. Fue fundado como club de fútbol el 29 de noviembre de 1899 y registrado oficialmente el 5 de enero de 1903. Es uno de los cuatro clubes profesionales de España Tanto el club como sus hinchas reciben el apelativo de «culés»,12​ y también, en referencia a sus colores, «azulgranas» o «blaugranas», tal como aparece en su himno, el «cant del Barça», el cual en su segunda línea menciona «som la gent blaugrana» (en castellano, «somos la gente azulgrana»). 
             </p>
 
-            <a href="mesi.html">
+            <a href="mesi.html" target="_blank">
                 <div>
                     <img src="iconos/image-gallery.png">
                     Ver galeria de imagenes
                 </div>
             </a>
+
+            <button onclick="mostrarMensaje()">APRIETA AQUÍ</button>
 
             <hr>
             <center>Diseñado por:<a href="mailto:josicalle.27@anai.edu.ec">josicalle.27@anai.edu.ec</a>
@@ -30,4 +32,21 @@
             "2do. Informática "B"
         </div>
     </body>
+
+    <script type="text/javascript">
+        function mostrarMensaje() {
+            alert("Me has dado clic");
+
+            if (document.getElementById("logo_barca").style.display == "none") {
+                document.getElementById("logo_barca").style.display = "block";
+            } else {
+                document.getElementById("logo_barca").style.display = "none";
+            }
+            
+            document.getElementsByClassName("texto_negro")[0].style.color = "purple";
+
+            //window.open("mesi.html");
+        }
+    </script>
+
 </html>
