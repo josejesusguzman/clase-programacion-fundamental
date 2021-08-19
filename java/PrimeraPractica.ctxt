@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=PrimeraPractica
+comment0.text=\r\n\ public\ ->\ Cualquier\ objeto\ tiene\ acceso\ a\ esto\r\n\ protected\ ->\ Protegido\r\n\ private\ ->\ Privado\r\n
+comment1.params=
+comment1.target=void\ Main()
+numComments=2

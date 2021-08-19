@@ -1,0 +1,30 @@
+.texto_negro {
+    color: #050505;
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.degradado_fondo {
+    background-image: radial-gradient(circle at 37% -19%, #4828d6, 50% #9fd6e7 100%);
+}
+
+.imagen_barca {
+    width: 100;
+    height: 100;
+}
+
+.imagen_casa {
+    width: 30;
+    height: 30;
+}
+
+.contenedor {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.imagenes_galeria {
+    width: 500px;
+    height: 400px;
+}
