@@ -21,6 +21,7 @@ public class SegundaPractica
     
     public static void main() {
         
+        
         /*Scanner scanner = new Scanner(System.in);
         int numero = 0;
         numero = scanner.nextInt();

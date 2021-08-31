@@ -10,6 +10,14 @@ public class PrimeraPractica {
     
     public static void Main() {
         
+        CuartaPractica cuartaPractica = new CuartaPractica(10);
+        System.out.println(cuartaPractica.funcionSuma(10));
+        
+        System.out.println(cuartaPractica.nombre);
+        System.out.println(cuartaPractica.x);
+        
+        
+        /*
         Scanner scanner = new Scanner(System.in);
         System.out.print("\nIngresa un número que corresponda a días: ");
         
@@ -29,7 +37,7 @@ public class PrimeraPractica {
             System.out.print("El número de minutos es: " + días * 24 * 60 );
         } else {
             System.out.print("Debes de meter número mayor a cero.");
-        }
+        }*/
         
     }
 }

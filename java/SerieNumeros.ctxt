@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=SerieNumeros
+comment0.text=\r\n\ Write\ a\ description\ of\ interface\ Series\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=int\ getSiguiente()
+comment2.params=
+comment2.target=void\ reiniciar()
+comment3.params=x
+comment3.target=void\ setComenzar(int)
+numComments=4

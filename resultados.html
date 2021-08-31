@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Resultados</title>
+    </head>
+    <body>
+        <h1>Resultados</h1>
+        <h2 id="nombre"></h2>
+        <h2 id="correo"></h2>
+    </body>
+</html>
+
+<script>
+    var link = document.URL.split('?')[1]
+    var atributos = link.split('&')
+
+    document.getElementById('nombre').innerHTML = atributos[0].split('=')[1]
+    document.getElementById('correo').innerHTML = atributos[1].split('=')[1]
+
+</script>
