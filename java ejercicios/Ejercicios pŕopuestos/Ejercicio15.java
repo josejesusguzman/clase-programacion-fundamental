@@ -27,15 +27,15 @@ public class Ejercicio15
             main();
         }
         
+        // cantidad = 21
+        int billetesVeinte = cantidad / 20; // billetesVeinte = 1
+        int residuo = cantidad % 20; // residuo = 1
         
-        int billetesVeinte = cantidad / 20;
-        int residuo = cantidad % 20;
+        int billetesDiez = residuo / 10; // billetesDiez = 0
+        residuo = residuo % 10; // residuo = 1
         
-        int billetesDiez = residuo / 10;
-        residuo = residuo % 10;
-        
-        int billetesCinco = residuo / 5;
-        residuo = residuo % 5;
+        int billetesCinco = residuo / 5; // billetesCinco = 0
+        residuo = residuo % 5; // residuo = 1
     
         System.out.println("Billetes de 20 dolares: " + billetesVeinte);
         System.out.println("Billetes de 10 dolares: " + billetesDiez);

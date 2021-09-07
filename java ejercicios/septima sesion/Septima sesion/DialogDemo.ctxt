@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=DialogDemo
+comment0.text=\r\n\ Mostrar\ un\ mensaje\ cuando\ el\ bot\u00F3n\ se\ presione\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=DialogDemo()
+comment2.params=event
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

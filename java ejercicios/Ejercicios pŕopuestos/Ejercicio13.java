@@ -23,17 +23,23 @@ public class Ejercicio13
             main();
         }
         
-        int decenasMil = numero / 10000;
-        int residuo = numero % 10000;
+        if ((numero / 10000) <= 0  || (numero / 100000) > 0 ) {
+            System.out.println("El número debe ser de cinco cifras");
+            main();
+        }
         
-        int miles = residuo / 1000;
-        residuo = residuo % 1000;
+        // numero = 19346
+        int decenasMil = numero / 10000; // decenasMil = 1
+        int residuo = numero % 10000; // resudio = 9346
         
-        int cientos = residuo / 100;
-        residuo = residuo % 100;
+        int miles = residuo / 1000; // miles = 9
+        residuo = residuo % 1000; // residuo 346
         
-        int decenas = residuo / 10;
-        residuo = residuo % 10;
+        int cientos = residuo / 100; // cientos = 3
+        residuo = residuo % 100; // residuo = 46
+        
+        int decenas = residuo / 10; // decenas = 4
+        residuo = residuo % 10; // resuiduo = 6
         
         System.out.println("Decenas de miles: " + decenasMil * 10000);
         System.out.println("Miles: " + miles * 1000);

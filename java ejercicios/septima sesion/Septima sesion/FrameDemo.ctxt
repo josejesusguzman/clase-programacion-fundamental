@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=FrameDemo
+comment0.text=\r\n\ Mostrar\ una\ ventana\ con\ Hola\ Mundo\ en\ JAVA\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ creacionGUI()
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment3.params=
+comment3.target=void\ run()
+numComments=4
